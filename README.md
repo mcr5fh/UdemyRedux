@@ -1,6 +1,6 @@
-#My notes
+# My notes
 
-##JSX
+## JSX
 
 //For all jsx properties, use double quotes
 //use single quotes everywhere else
@@ -29,7 +29,7 @@ semantic ui cdn
 Added to html
 https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css
 
-###Faker js
+### Faker js
 Note its pretty big, so don't want to use in Prod, but good for tests
 
 Semantic css for cards
@@ -45,7 +45,7 @@ Class based
 
 Never make API calls in the render method
 
-###Seasons
+### Seasons
 semantic-ui icons for the winter/summer icons
 
         //alwasy want the root div of class to match class name
@@ -53,7 +53,7 @@ semantic-ui icons for the winter/summer icons
 Avoid multiple return statements in render() method,
 if needed, you can do renderContent() / renderBody() inside of some div
 
-#Pics
+## Pics
 
 Note that whenever you make use a function for an "onChange", DO NOT add
 (), otherwise it will call the function
@@ -66,7 +66,7 @@ Controlled element
 - Also allows you to set some initial value for an input 
 Uncontrolled element
 
-##Forms
+## Forms
 By default 
 
 The class component is not calling onFormSubmit(), so it won't be able to read state.
@@ -81,7 +81,7 @@ handleFormSubmit(event) {...}
 
 `<onSubmit={this.handleFormSubmit}>`
 
-##Props
+## Props
 Props only go down! But, we can pass down callbacks, this allows values to be sent up 
 
 ##React Refs
@@ -102,6 +102,6 @@ But now there is a lag on load :(
 > 27 |     const height = this.imageRef.current.clientHeight;
 
 
-#Redux
+# Redux
 
 Always create and return a new object in your reducers
