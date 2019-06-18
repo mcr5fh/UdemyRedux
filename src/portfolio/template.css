@@ -2,13 +2,11 @@
     .hidden.menu {
         display: none;
       }
+
+      .date {
+        color: darkmagenta;
+      }
       
-      /* .main-cover {
-        background-image: url('../assets/img/table_mountain.jpg') !important;
-        /* background-size: cover !important; 
-        background-repeat: no-repeat;
-        background-size: cover;
-      } */
       .masthead.segment {
         /* min-height: 700px; */
         min-height: min-content;
@@ -20,11 +18,16 @@
       .masthead .ui.menu .ui.button {
         margin-left: 0.5em;
       }
-      .masthead h1.ui.header {
+      .masthead h1.ui.centered.header {
         margin-top: 1.5em;
         margin-bottom: 1em;
         font-size: 4em;
         font-weight: normal;
+        background-color: rgba(255,255,255,0.4);
+        display: inline-block;
+        border-radius: 15px;
+        padding-left: 0.3em;
+        padding-right: 0.3em;
       }
       .masthead h2 {
         font-size: 1.7em;

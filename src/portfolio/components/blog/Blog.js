@@ -11,6 +11,7 @@ const Blog = props => {
         key={entry.date}
         date={entry.date}
         title={entry.title}
+        subtitle={entry.subtitle}
         content={entry.content}
         header={entry.header}
         footer={entry.footer}
@@ -19,6 +20,7 @@ const Blog = props => {
   });
   return (
     <div>
+      <a name="blog" />
       <BlogHeader />
       <div className="blog-list">{blogEntries}</div>
     </div>

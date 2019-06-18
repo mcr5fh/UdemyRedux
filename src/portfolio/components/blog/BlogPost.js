@@ -17,8 +17,13 @@ const BlogPost = props => {
                 //Link?
                 > */}
                 {props.title}
+                <div className="sub header">{props.subtitle}</div>
+                <div className="sub header">
+                  <div className="date">
+                    <strong>{props.date}</strong>
+                  </div>
+                </div>
                 {/* </a> */}
-                <div className="sub header">{props.date}</div>
               </h2>
             </div>
           </div>

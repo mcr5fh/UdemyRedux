@@ -8,74 +8,19 @@ import table_mountain from "../../../assets/img/table-mountain-sunset.jpg"; // T
 const Header = props => {
   return (
     //   Note: Add Inverted to invert the color scheme so it works on a black background
-    <div>
-      {/* <div className="main-cover"> */}
-
-      <div className="ui inverted vertical masthead center aligned segment">
-        <div className="ui fluid image">
-          <div
-            style={{
-              position: "absolute",
-              //   top: "2em",
-              width: "100%",
-              height: "auto"
-            }}
-          >
-            <h1
-              className="ui centered header"
-              style={{
-                backgroundColor: "rgba(255,255,255,0.4)",
-                display: "inline-block",
-                borderRadius: "15px",
-                paddingLeft: "0.3em",
-                paddingRight: "0.3em"
-              }}
-            >
-              Matthew Cyril Ruiters
-            </h1>
-          </div>
-          <img src={table_mountain} />
+    <div className="ui vertical masthead center aligned">
+      <div className="ui fluid image">
+        <div
+          className="ui vertical center aligned segment"
+          style={{
+            position: "absolute",
+            width: "100%",
+            height: "-webkit-fill-available"
+          }}
+        >
+          <h1 className="ui inverted centered header">Matthew Cyril Ruiters</h1>
         </div>
-      </div>
-
-      <div className="ui vertical stripe segment">
-        <div className="ui middle aligned stackable grid container">
-          <div className="center aligned one wide row">
-            <h1 className="ui centered header">About</h1>
-          </div>
-          <div className="center aligned three column row">
-            <div className="column">
-              <div className="ui segment">
-                <img className="ui centered medium image" src={dc} alt="dc" />
-              </div>
-            </div>
-            <div className="column">
-              <div className="ui segment">
-                <img
-                  className="ui medium image"
-                  src="https://d0.awsstatic.com/logos/powered-by-aws.png"
-                  alt="Powered by AWS Cloud Computing"
-                />
-              </div>
-              <div className="ui segment">
-                <img
-                  className="ui medium image"
-                  src={uva}
-                  alt="Powered by AWS Cloud Computing"
-                />
-              </div>
-            </div>
-            <div className="column">
-              <div className="ui segment">
-                <img
-                  className="ui centered small image"
-                  src={shoes}
-                  alt="shoes"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
+        <img src={table_mountain} />
       </div>
     </div>
   );
