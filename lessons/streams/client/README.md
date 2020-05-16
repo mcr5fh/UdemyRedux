@@ -182,6 +182,7 @@ Validation
 
 
 ## REST
+json-server is tight
 
 Route:
 
@@ -193,3 +194,11 @@ POST - create a stream
 GET - Get a specific record
 PUT - Update a record
 DELETE - Delete a record
+
+### Redux Thunk
+- any time we want to make an action creator that is going to to use async, we have to use redux-thunk (why?)
+
+
+### Redux notes
+
+NOTE! Each component must fetch all the data it needs as if it existed in isolation

@@ -171,6 +171,3 @@ Every time we call the fetchUser actionCreator, a new function is returned, so w
 This will just call the two actionCreators that we already have.
 
 
-## Streaming App
-
-### Notes

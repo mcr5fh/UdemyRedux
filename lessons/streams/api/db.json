@@ -1,0 +1,65 @@
+{
+  "streams": [
+    {
+      "title": "asdf",
+      "description": "1234",
+      "id": 1
+    },
+    {
+      "title": "Second Stream",
+      "description": "My second stream",
+      "id": 2
+    },
+    {
+      "title": "Second Stream",
+      "description": "My second stream",
+      "id": 3
+    },
+    {
+      "title": "4th",
+      "description": "the 4th",
+      "id": 4
+    },
+    {
+      "title": "My new Stream",
+      "description": "this was made",
+      "id": 5
+    },
+    {
+      "title": "My new Stream",
+      "description": "this was made by me",
+      "userId": "108712208104346429927",
+      "id": 6
+    },
+    {
+      "title": "asdf",
+      "description": "asdfasdfasdf",
+      "userId": "108712208104346429927",
+      "id": 7
+    },
+    {
+      "title": "test ",
+      "description": "send me back to the list",
+      "userId": "108712208104346429927",
+      "id": 8
+    },
+    {
+      "title": "Jade's ",
+      "description": "Stream",
+      "userId": "108712208104346429927",
+      "id": 9
+    },
+    {
+      "title": "Molly at a ",
+      "description": "music festival",
+      "userId": "108712208104346429927",
+      "id": 10
+    },
+    {
+      "title": "test Create",
+      "description": "tseter",
+      "userId": "111052686678665904773",
+      "id": 11
+    }
+  ]
+}
